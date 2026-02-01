@@ -29,3 +29,77 @@ This project addresses that gap by building an **Explainable AI (XAI) decision i
 
 The platform follows a complete AI pipeline:
 
+
+---
+
+##  Key Features
+
+###  Multi-Model Anomaly Detection
+- Isolation Forest  
+- Local Outlier Factor (LOF)  
+- Mahalanobis Distance (Robust Covariance)  
+- Z-Score based statistical detection  
+- Rule-based domain logic  
+
+### Ensemble Intelligence
+- Model voting to reduce false positives  
+- Confidence score based on agreement strength  
+
+###  Feature Engineering
+- Rolling mean & standard deviation  
+- Energy deviation from baseline  
+- Lag features for temporal dependency  
+- Energy shock detection  
+- Stability index for volatility measurement  
+
+###  Explainable AI (XAI)
+- Clear explanation of *why* an anomaly was detected  
+- Causal breakdown using deviation, persistence, and model agreement  
+
+###  Risk & Severity Analysis
+- Severity classification  
+- Persistence-based risk escalation  
+- AI-driven priority scoring  
+
+###  Business Impact & ROI
+- Energy loss estimation  
+- High-risk building ranking  
+- ROI simulation for anomaly resolution  
+
+### Interactive Dashboard
+- Built with **Streamlit**
+- Clean, modern, presentation-ready UI
+- Designed for both technical and non-technical stakeholders
+
+---
+
+##  Dashboard Preview
+
+The dashboard provides:
+- Executive KPIs
+- Energy vs AI-expected baseline comparison
+- Model-wise anomaly detection insights
+- Explainable AI reasoning for anomalies
+- Business impact and ROI visualization
+
+---
+
+##  Dataset
+
+- Smart building energy time-series data  
+- Multiple buildings with hourly energy measurements  
+- Weather and contextual features (preprocessed)
+
+> The processed dataset used by the dashboard is stored as `df_long.csv`.
+
+---
+
+##  Tech Stack
+
+- **Python**
+- **Pandas, NumPy**
+- **Scikit-learn**
+- **Matplotlib**
+- **Streamlit**
+
+---
